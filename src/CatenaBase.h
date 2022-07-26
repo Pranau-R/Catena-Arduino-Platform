@@ -9,7 +9,7 @@ Copyright notice:
         See accompanying LICENSE file.
 
 Author:
-        Terry Moore, MCCI Corporation   October 2016
+        Terry Moore, MCCI Corporation   July 2022
 
 */
 
@@ -210,6 +210,8 @@ public:
                 fHasSHT3x = 1 << 20,
                 //platform has I2C Level Shifter
                 fHasI2cLevelShifter = 1 << 21,
+                //platform has LTR-329ALS-01 Lux Sensor
+                fHasLTR329 = 1 << 22,
 
                 // special wiring variants all are offsets from M100...
                 // we support up to 127 variants, becuase we have 7
