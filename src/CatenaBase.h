@@ -210,7 +210,9 @@ public:
                 fHasSHT3x = 1 << 20,
                 //platform has I2C Level Shifter
                 fHasI2cLevelShifter = 1 << 21,
-
+                //platform has LIS2HH12 Accelerometer
+                fHasLIS2HH12 = 1 << 22,
+        
                 // special wiring variants all are offsets from M100...
                 // we support up to 127 variants, becuase we have 7
                 // bits and variant 0 means "base model".
