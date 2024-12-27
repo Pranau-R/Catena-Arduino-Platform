@@ -72,6 +72,11 @@ McciCatena::cFramStorage::vItemDefs[cFramStorage::kMAX] =
 
         cFramStorage::StandardItem(kAppConf, cFramStorage::MaxAppConfSize, false),
         cFramStorage::StandardItem(kLmicSessionState, sizeof(Arduino_LoRaWAN::SessionState), /* number */ false),
+        cFramStorage::StandardItem(kAnalogInputBitMask, sizeof(uint16_t), /* number */ true),
+        cFramStorage::StandardItem(kAnalogOutputBitMask, sizeof(uint16_t), /* number */ true),
+        cFramStorage::StandardItem(kDigitalInputBitMask, sizeof(uint16_t), /* number */ true),
+        cFramStorage::StandardItem(kDigitalOutputBitMask, sizeof(uint16_t), /* number */ true),
+        cFramStorage::StandardItem(kTemperatureBitMask, sizeof(uint16_t), /* number */ true),
         };
 
 /****************************************************************************\

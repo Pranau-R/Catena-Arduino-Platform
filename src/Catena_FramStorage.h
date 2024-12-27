@@ -49,6 +49,11 @@ public:
                 kBme680Cal = 16,
                 kAppConf = 17,
                 kLmicSessionState = 18,
+                kAnalogInputBitMask = 19,
+                kAnalogOutputBitMask = 20,
+                kDigitalInputBitMask = 21,
+                kDigitalOutputBitMask = 22,
+                kTemperatureBitMask = 23,
                 // when you add something, also update McciCatena::cFramStorage::vItemDefs[]!
                 kMAX
                 };
