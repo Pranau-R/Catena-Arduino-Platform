@@ -77,6 +77,7 @@ McciCatena::cFramStorage::vItemDefs[cFramStorage::kMAX] =
         cFramStorage::StandardItem(kDigitalInputBitMask, sizeof(uint16_t), /* number */ true),
         cFramStorage::StandardItem(kDigitalOutputBitMask, sizeof(uint16_t), /* number */ true),
         cFramStorage::StandardItem(kTemperatureBitMask, sizeof(uint16_t), /* number */ true),
+        cFramStorage::StandardItem(kUplinkInterval, sizeof(uint32_t), /* number */ true),
         };
 
 /****************************************************************************\

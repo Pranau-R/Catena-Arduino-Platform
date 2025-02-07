@@ -54,6 +54,7 @@ public:
                 kDigitalInputBitMask = 21,
                 kDigitalOutputBitMask = 22,
                 kTemperatureBitMask = 23,
+                kUplinkInterval = 24,
                 // when you add something, also update McciCatena::cFramStorage::vItemDefs[]!
                 kMAX
                 };
